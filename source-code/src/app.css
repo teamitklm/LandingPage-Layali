@@ -1,7 +1,7 @@
 html{scroll-behavior:smooth}body{margin:0;background:#fef1de;color:#191910;font-family:Montserrat,sans-serif}.design-stage{position:absolute;left:0;top:0}.action{cursor:pointer;z-index:3}.action:hover{filter:brightness(.85);text-decoration:underline}.action:focus-visible,[role=button]:focus-visible{outline:3px solid #696d40;outline-offset:5px}.menu{position:fixed;z-index:100;top:70px;right:16px;display:flex;flex-direction:column;gap:8px;background:#fef1de;padding:20px;border-radius:12px;box-shadow:0 8px 40px #0003}.menu button,.dialog button{font:inherit;background:#939079;color:white;border:0;padding:12px 20px;border-radius:8px;cursor:pointer}.dialog{position:fixed;z-index:200;left:50%;top:50%;transform:translate(-50%,-50%);background:#fef1de;padding:30px;box-shadow:0 0 0 100vmax #0007;border-radius:16px;max-width:90vw;width:420px}.dialog p{margin-bottom:20px}.dialog a{color:#54563a;display:inline-block;margin-right:20px}[data-node-id="112:8"]{cursor:pointer;z-index:5}
 [data-node-id="71:422"]{font-size:60px;white-space:nowrap}[data-node-id="71:453"],[data-node-id="71:487"]{font-size:60px}[data-node-id="71:522"]{font-size:55px}[data-node-id="112:5"]{font-size:36px;white-space:nowrap}[data-node-id="112:284"],[data-node-id="113:319"]{font-size:18px}[data-node-id="71:656"],[data-node-id="71:657"]{white-space:nowrap}
 
-
+ 
 /* Requested heading emphasis on both Layali layouts. */
 [data-node-id="112:268"], [data-node-id="112:284"],
 [data-node-id="113:319"], [data-node-id="113:334"],
