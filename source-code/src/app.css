@@ -1,0 +1,141 @@
+html{scroll-behavior:smooth}body{margin:0;background:#fef1de;color:#191910;font-family:Montserrat,sans-serif}.design-stage{position:absolute;left:0;top:0}.action{cursor:pointer;z-index:3}.action:hover{filter:brightness(.85);text-decoration:underline}.action:focus-visible,[role=button]:focus-visible{outline:3px solid #696d40;outline-offset:5px}.menu{position:fixed;z-index:100;top:70px;right:16px;display:flex;flex-direction:column;gap:8px;background:#fef1de;padding:20px;border-radius:12px;box-shadow:0 8px 40px #0003}.menu button,.dialog button{font:inherit;background:#939079;color:white;border:0;padding:12px 20px;border-radius:8px;cursor:pointer}.dialog{position:fixed;z-index:200;left:50%;top:50%;transform:translate(-50%,-50%);background:#fef1de;padding:30px;box-shadow:0 0 0 100vmax #0007;border-radius:16px;max-width:90vw;width:420px}.dialog p{margin-bottom:20px}.dialog a{color:#54563a;display:inline-block;margin-right:20px}[data-node-id="112:8"]{cursor:pointer;z-index:5}
+[data-node-id="71:422"]{font-size:60px;white-space:nowrap}[data-node-id="71:453"],[data-node-id="71:487"]{font-size:60px}[data-node-id="71:522"]{font-size:55px}[data-node-id="112:5"]{font-size:36px;white-space:nowrap}[data-node-id="112:284"],[data-node-id="113:319"]{font-size:18px}[data-node-id="71:656"],[data-node-id="71:657"]{white-space:nowrap}
+
+
+/* Requested heading emphasis on both Layali layouts. */
+[data-node-id="112:268"], [data-node-id="112:284"],
+[data-node-id="113:319"], [data-node-id="113:334"],
+[data-node-id="71:453"], [data-node-id="71:487"],
+[data-node-id="71:522"], [data-node-id="71:581"] {
+  font-weight: 700;
+  text-shadow: none;
+}
+/* Floral decorations retain their artwork without rectangular shadows. */
+.s390, .s391, .s392, .s394, .s398,
+.s119, .s122, .s123, .s124, .s127, .s134 { box-shadow: none; }
+/* Join the collection background to its scalloped edge. */
+[data-node-id="112:274"] { top: 1137px; height: 583px; }
+
+/* Keep the partnership title above its description at mobile sizes. */
+[data-node-id="113:319"] { width: 270px; height: auto; }
+[data-node-id="113:319"] p { line-height: 1.1; }
+
+/* Emphasize the requested seminar, testimonial, and footer text. */
+[data-node-id="114:376"] span,
+[data-node-id="71:587"] span,
+[data-node-id="114:406"], [data-node-id="71:613"],
+[data-node-id="116:453"], [data-node-id="71:638"],
+[data-node-id="116:460"], [data-node-id="116:477"],
+[data-node-id="71:656"], [data-node-id="71:657"] { font-weight: 700; }
+
+/* Remove rectangular shadows from the seminar portrait and posters. */
+.s444, .s448, .s450, .s451,
+.s211, .s216, .s219, .s220 { box-shadow: none; }
+[data-node-id="114:376"] { width: 340px; }
+[data-node-id="114:376"] span { font-size: 15px; line-height: 1.15; }
+[data-node-id="116:453"] { width: 390px; font-size: 21px; white-space: nowrap; }
+
+/* Overlap the lace rows so their transparent edges leave no blank strip. */
+[data-node-id="112:244"] [style*="mask-image"],
+[data-node-id="112:244"] [style*="maskImage"] { --ty: -12px; }
+
+/* Blend the testimonial background into the curved seminar divider. */
+[data-node-id="114:403"] { top: 2914px; height: 435px; }
+
+/* Desktop divider joins and heading clearance. */
+[data-node-id="71:461"] [style*="mask-image"] { --ty: -24px; }
+[data-node-id="71:485"] { margin-top: -2px; background-color: #bdbf9b; }
+[data-node-id="71:587"] { width: 1130px; }
+[data-node-id="71:587"] span { font-size: 48px; line-height: 1.15; }
+[data-node-id="71:638"] { font-size: 64px; white-space: nowrap; width: 1320px; }
+[data-node-id="71:450"] { margin-top: -32px; }
+
+/* Explicit geometry keeps Figma's side ornaments visible in browsers
+   that do not support hypot() in CSS dimension calculations. */
+[data-node-id="71:605"] > div,
+[data-node-id="71:606"] > div { width: 273px; height: 493px; }
+[data-node-id="71:605"] .s228,
+[data-node-id="71:606"] .s228 { inset: auto; left: -60px; top: -50px; width: 440px; height: 640px; }
+[data-node-id="71:604"] { z-index: 2; }
+[data-node-id="71:605"], [data-node-id="71:606"] { z-index: 0; }
+[data-node-id="71:588"], [data-node-id="71:589"], [data-node-id="71:590"],
+[data-node-id="71:591"], [data-node-id="71:592"] { z-index: 1; }
+[data-node-id="71:594"], [data-node-id="71:595"],
+[data-node-id="71:596"], [data-node-id="71:597"] { z-index: 2; }
+[data-node-id="71:598"] { z-index: 3; }
+[data-node-id="71:602"] { z-index: 4; }
+[data-node-id="71:603"] { z-index: 5; }
+[data-node-id="71:604"] { z-index: 6; }
+
+/* Restore the larger matching ornaments behind the social section. */
+[data-node-id="71:541"], [data-node-id="71:579"] { z-index: 0; }
+[data-node-id="71:541"] > div,
+[data-node-id="71:579"] > div { width: 467px; height: 841px; }
+[data-node-id="71:541"] .s171,
+[data-node-id="71:579"] .s171 {
+  inset: auto; left: -103px; top: -85px; width: 753px; height: 1093px;
+}
+[data-node-id="71:542"] { z-index: 1; }
+[data-node-id="71:580"], [data-node-id="71:581"],
+[data-node-id="71:540"], [data-node-id="71:578"],
+[data-node-id="71:538"] .s175, [data-node-id="71:538"] .s176,
+[data-node-id="71:538"] .s177, [data-node-id="71:538"] .s179,
+[data-node-id="71:538"] .s180, [data-node-id="71:538"] .s181,
+[data-node-id="71:538"] .s184, [data-node-id="71:538"] .s185,
+[data-node-id="71:538"] .s186 { z-index: 2; }
+[data-node-id="71:582"] { z-index: 3; }
+[data-node-id="71:582"] .s196 { box-shadow: none; }
+[data-node-id="71:577"] { z-index: 4; }
+
+/* Overlap the desktop section joins to eliminate antialiased seams. */
+[data-node-id="71:520"], [data-node-id="71:607"] { margin-top: -3px; }
+[data-node-id="71:583"] { margin-top: -3px; }
+
+.testimonials-carousel{position:absolute;left:0;width:1440px;top:425px;transform:none}
+.testimonials-track{position:relative;display:flex;gap:50px;padding:20px 94px 28px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:94px;scrollbar-width:none;cursor:grab;overscroll-behavior-x:contain;transform:none}
+.testimonials-track::-webkit-scrollbar{display:none}
+.testimonials-track.dragging{cursor:grabbing;scroll-snap-type:none;user-select:none}
+.testimonial-card{flex:0 0 697px;min-height:387px;background:#fef1de;border-radius:30px;box-shadow:10px 10px 20px #0004;padding:55px 48px 35px;scroll-snap-align:start;transform:none}
+.testimonial-card header{margin-left:280px;font-size:25px;line-height:1.25;transform:none}
+.testimonial-card header strong{font-weight:700}
+.testimonial-card blockquote{font-size:23px;font-style:italic;font-weight:600;text-align:center;line-height:1.25;margin:35px 0 0;transform:none}
+.testimonial-controls{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:12px;transform:none}
+.testimonial-controls button{border:0;background:transparent;color:#74715d;font:40px Georgia,serif;cursor:pointer;padding:0 10px;transform:none}
+.testimonial-controls button:disabled{opacity:.3;cursor:default}
+.testimonial-controls .testimonial-dot{width:30px;height:16px;border-radius:20px;background:#bdbf9b;padding:0}
+.testimonial-controls .testimonial-dot.active{background:#939079}
+.testimonial-controls button:focus-visible,.testimonials-track:focus-visible{outline:3px solid #74715d;outline-offset:4px}
+.testimonials-carousel.is-mobile{width:412px;top:3088px}
+.is-mobile .testimonials-track{gap:34px;padding:10px 17px 18px;scroll-padding-left:17px}
+.is-mobile .testimonial-card{flex-basis:378px;min-height:224px;border-radius:30px;padding:38px 25px 24px;box-shadow:2px 2px 5px #0004}
+.is-mobile .testimonial-card header{font-size:15px;margin-left:145px;white-space:nowrap}
+.is-mobile .testimonial-card blockquote{font-size:12px;margin-top:26px}
+.is-mobile .testimonial-controls{margin-top:0;gap:6px}
+.is-mobile .testimonial-controls button{font-size:24px}
+.is-mobile .testimonial-controls .testimonial-dot{width:18px;height:9px}
+.testimonial-card{position:relative}
+.testimonial-quote-mark{position:absolute;left:42px;top:-21px;font-family:Montserrat,sans-serif;font-weight:600;font-style:italic;font-size:250px;line-height:1.2;color:transparent;-webkit-text-stroke:1px #191910;pointer-events:none;user-select:none;transform:none}
+.is-mobile .testimonial-quote-mark{left:24px;top:13px;font-size:100px;-webkit-text-stroke:.6px #191910}
+
+.mobile-menu-panel{position:fixed;z-index:100;top:0;left:50%;transform:translateX(-50%);background:#939079;color:white;max-height:100dvh;overflow-y:auto;padding-bottom:24px;box-shadow:0 12px 25px #0002}
+.mobile-menu-header{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 27px;transform:none}
+.mobile-menu-header img{width:80px;height:33px;object-fit:contain;transform:none}
+.mobile-menu-panel button{font-family:Montserrat,sans-serif;color:white;background:transparent;border:0;cursor:pointer;transform:none}
+.mobile-menu-panel .menu-toggle{display:flex;flex-direction:column;gap:5px;align-items:center;justify-content:center;width:46px;height:40px;border:2px solid #bdbf9b;padding:7px}
+.menu-toggle span{display:block;width:29px;height:3px;background:white;transform:none}
+.mobile-menu-links{display:flex;flex-direction:column;align-items:stretch;padding-top:10px;gap:0;transform:none}
+.mobile-menu-links>button{min-height:58px;font-size:18px;font-weight:600;text-align:center;padding:14px 20px}
+.mobile-menu-panel button:hover{background:#ffffff10}
+.mobile-menu-panel button:focus-visible{outline:2px solid #fef1de;outline-offset:-4px}
+.catalog-chevron{display:inline-block;width:9px;height:9px;border-right:1.5px solid white;border-bottom:1.5px solid white;transform:translateY(-3px) rotate(45deg);margin-left:5px}
+.catalog-chevron.expanded{transform:translateY(2px) rotate(225deg)}
+.catalog-submenu{display:flex;flex-direction:column;background:#ffffff0c;transform:none}
+.catalog-submenu button{font-size:14px;padding:12px}
+
+[data-node-id="71:409"]{display:none}
+.desktop-catalog{position:absolute;left:660px;top:85px;z-index:20;transform:none}
+.desktop-catalog-trigger{display:flex;align-items:center;gap:7px;background:transparent;border:0;color:white;font:20px Poppins,sans-serif;min-height:48px;padding:4px 10px;cursor:pointer;transform:none}
+.desktop-catalog-links{position:absolute;left:0;top:52px;width:290px;background:#939079;border:1px solid #bdbf9b;border-radius:12px;padding:8px;box-shadow:0 10px 25px #0003;transform:none}
+.desktop-catalog-links button{display:block;width:100%;border:0;background:transparent;color:white;padding:14px;text-align:left;font:600 17px Montserrat,sans-serif;cursor:pointer;border-radius:6px;transform:none}
+.desktop-catalog-links button:hover{background:#ffffff18}
+.desktop-catalog button:focus-visible{outline:2px solid #fef1de;outline-offset:2px}
