@@ -143,3 +143,16 @@ html{scroll-behavior:smooth}body{margin:0;background:#fef1de;color:#191910;font-
 .mobile-social-link{border-radius:15px}
 .social-button-link:hover{background:#ffffff12}
 .social-button-link:focus-visible{outline:3px solid #fef1de;outline-offset:4px;box-shadow:0 0 0 6px #74715d}
+
+/* Mobile glass ornaments, with explicit dimensions for browser support. */
+[data-node-id="114:371"] > div,
+[data-node-id="114:372"] > div { width:184px; height:324px; }
+[data-node-id="114:371"] .s338,
+[data-node-id="114:372"] .s338 { inset:auto; left:-40px; top:-33px; width:296px; height:420px; }
+[data-node-id="114:401"] > div,
+[data-node-id="114:402"] > div { width:132px; height:233px; }
+[data-node-id="114:401"] .s342,
+[data-node-id="114:402"] .s342 { inset:auto; left:-29px; top:-24px; width:213px; height:303px; }
+[data-node-id="116:483"], [data-node-id="116:484"],
+[data-node-id="114:373"] .s510,
+[data-node-id="114:374"] .s510 { box-shadow:none; }
