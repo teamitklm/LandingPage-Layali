@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 const links=[
  {name:'Facebook',href:'https://www.facebook.com/',mobileLeft:51,desktopTop:188,desktopLeft:648},
  {name:'Instagram',href:'https://www.instagram.com/layali.ofc/',mobileLeft:162.55,desktopTop:631,desktopLeft:647},
