@@ -139,3 +139,7 @@ html{scroll-behavior:smooth}body{margin:0;background:#fef1de;color:#191910;font-
 .desktop-catalog-links button{display:block;width:100%;border:0;background:transparent;color:white;padding:14px;text-align:left;font:600 17px Montserrat,sans-serif;cursor:pointer;border-radius:6px;transform:none}
 .desktop-catalog-links button:hover{background:#ffffff18}
 .desktop-catalog button:focus-visible{outline:2px solid #fef1de;outline-offset:2px}
+.social-button-link{position:absolute;z-index:10;display:block;border-radius:30px;cursor:pointer;transform:none}
+.mobile-social-link{border-radius:15px}
+.social-button-link:hover{background:#ffffff12}
+.social-button-link:focus-visible{outline:3px solid #fef1de;outline-offset:4px;box-shadow:0 0 0 6px #74715d}
