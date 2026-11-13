@@ -203,3 +203,5 @@ html{scroll-behavior:smooth}body{margin:0;background:#fef1de;color:#191910;font-
 [data-node-id="113:316"],[data-node-id="113:317"]{top:1548px}
 /* Match the italic and surrounding seminar text in size and typeface. */
 [data-node-id="114:376"] span,[data-node-id="71:587"] span{font-family:Montserrat,sans-serif;font-style:italic}
+[data-node-id="71:587"] .s202{font-family:"EB Garamond",serif;font-size:54px;line-height:1.1}
+[data-node-id="114:376"] .s439{font-family:"EB Garamond",serif;font-size:17px;line-height:1.1}
