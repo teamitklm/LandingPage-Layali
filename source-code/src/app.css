@@ -156,3 +156,50 @@ html{scroll-behavior:smooth}body{margin:0;background:#fef1de;color:#191910;font-
 [data-node-id="116:483"], [data-node-id="116:484"],
 [data-node-id="114:373"] .s510,
 [data-node-id="114:374"] .s510 { box-shadow:none; }
+
+/* Collection carousel follows the revised five-item Figma catalogue. */
+.product-carousel{position:absolute;left:0;top:532px;width:1440px;z-index:2;transform:none}
+.product-track{display:flex;gap:26px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x mandatory;scroll-padding-left:82px;padding:0 82px;cursor:grab;overscroll-behavior-x:contain;transform:none;position:relative}
+.product-track::-webkit-scrollbar{display:none}
+.product-track.dragging{scroll-snap-type:none;cursor:grabbing;user-select:none}
+.collection-card{position:relative;flex:0 0 448px;height:430px;scroll-snap-align:start;transform:none}
+.collection-art{width:448px;height:385px;position:relative;transform:none;pointer-events:none}
+.collection-artboard{position:relative;width:448px;height:385px;transform:none}
+.collection-crop{position:absolute;overflow:hidden}
+.collection-crop img{position:absolute;max-width:none;transform:none}
+.collection-mukena{position:absolute;left:40px;top:0;transform:none}
+.collection-caption{position:absolute;left:0;top:355px;width:448px;height:85px;display:flex;align-items:center;justify-content:center;transform:none}
+.collection-caption button{border:0;border-radius:30px;background:#fef1de;width:337px;height:44px;font:600 20px Montserrat,sans-serif;color:#191910;cursor:pointer;transform:none}
+.collection-caption button:hover{background:#fff9ee}
+.collection-flower{position:absolute;width:62px;height:85px;object-fit:contain;pointer-events:none;transform:none}
+.flower-left{left:22px;transform:rotate(180deg) scaleY(-1)}
+.flower-right{right:22px}
+.collection-controls{display:flex;align-items:center;justify-content:center;gap:14px;height:68px;transform:none}
+.collection-controls button{padding:0 8px;border:0;background:transparent;color:#74715d;font:32px Georgia,serif;cursor:pointer;transform:none}
+.collection-controls button:disabled{opacity:.3;cursor:default}
+.collection-controls input{appearance:none;width:151px;height:20px;border-radius:30px;background:#939079;cursor:pointer;transform:none}
+.collection-controls input::-webkit-slider-thumb{appearance:none;width:76px;height:20px;border-radius:30px;background:#74715d}
+.collection-controls input::-moz-range-thumb{width:76px;height:20px;border:0;border-radius:30px;background:#74715d}
+.collection-caption button:focus-visible,.product-track:focus-visible,.collection-controls :focus-visible{outline:3px solid #74715d;outline-offset:3px}
+.mobile-products{top:1344px;width:412px}
+.mobile-products .product-track{gap:0;padding:0 12px;scroll-padding-left:12px}
+.mobile-products .collection-card{flex-basis:193px;height:165px}
+.mobile-products .collection-art{width:193px;height:145px}
+.mobile-products .collection-artboard{transform:scale(.375);transform-origin:top left;left:12.5px}
+.mobile-products .collection-caption{width:193px;top:106px;height:52px}
+.mobile-products .collection-caption button{width:147px;height:27px;font-size:10px}
+.mobile-products .collection-flower{width:38px;height:52px}
+.mobile-products .flower-left{left:0}
+.mobile-products .flower-right{right:0}
+.mobile-products .collection-controls{height:65px;gap:8px}
+.mobile-products .collection-controls button{font-size:20px}
+.mobile-products .collection-controls input{width:50px;height:7px}
+.mobile-products .collection-controls input::-webkit-slider-thumb{width:25px;height:7px}
+.mobile-products .collection-controls input::-moz-range-thumb{width:25px;height:7px}
+[data-node-id="112:284"]{top:1222px}
+[data-node-id="112:285"]{top:1281px}
+[data-node-id="112:274"]{height:494px}
+[data-node-id="113:318"]{top:1631px}
+[data-node-id="113:316"],[data-node-id="113:317"]{top:1548px}
+/* Match the italic and surrounding seminar text in size and typeface. */
+[data-node-id="114:376"] span,[data-node-id="71:587"] span{font-family:Montserrat,sans-serif;font-style:italic}
