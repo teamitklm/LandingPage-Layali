@@ -15,6 +15,7 @@ function App(){
  useEffect(()=>{if(!menu)return;const previous=document.activeElement;const overflow=document.body.style.overflow;document.body.style.overflow='hidden';menuPanel.current?.querySelector('button')?.focus();return()=>{document.body.style.overflow=overflow;previous?.focus()}},[menu]);
  function scrollToText(pattern){const el=[...stage.current.querySelectorAll('p')].find(p=>pattern.test(p.textContent));el?.scrollIntoView({behavior:'smooth',block:'center'});setMenu(false)}
  function activate(text){
+  if(text==='Daftar Seminar Gratis'){window.open('https://link.lailibrand.id/IkutSeminar','_blank','noopener,noreferrer');return;}
   if(/tentang|kenalan|about/i.test(text))scrollToText(/Kenalan Lebih Dekat/);
   else if(text==='Kemitraan')scrollToText(/Jadi Mitra/);
   else if(text==='Free Seminar')scrollToText(/Ingin punya/);
