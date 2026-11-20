@@ -21,7 +21,7 @@ function App(){
   else if(/katalog|koleksi|mukena|sarimbit/i.test(text))scrollToText(/Bunda, Ada Koleksi/);
   else if(/testimoni/i.test(text))scrollToText(/masih penasaran/);
   else if(/instagram/i.test(text))window.open('https://www.instagram.com/layali.ofc/','_blank','noopener,noreferrer');
-  else if(/facebook/i.test(text))window.open('https://www.facebook.com/','_blank','noopener,noreferrer');
+  else if(/facebook/i.test(text))window.open('https://web.facebook.com/profile.php?id=61594373533340','_blank','noopener,noreferrer');
   else if(/tiktok|titktok/i.test(text))window.open('https://www.tiktok.com/@lailibrand','_blank','noopener,noreferrer');
   else if(/shipping|privacy|term|wishlist|compare|subscribe/i.test(text))setNotice('Silakan hubungi tim Layali untuk informasi '+text+'.');
   else window.open(contact+'?text='+encodeURIComponent('Halo Layali, saya ingin informasi tentang '+text+'.'),'_blank','noopener,noreferrer');
